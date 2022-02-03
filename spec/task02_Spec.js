@@ -1,6 +1,6 @@
 describe('getAddSum function' , ()=>{
     
-    const getAddSum = require('../modules/task_02');
+    const getAddSum = require('../src/modules/task_02');
 
     it('should be able to calculate correct sum' , ()=>{
         expect(getAddSum([5,5,5,5,5,5])).toEqual(30);

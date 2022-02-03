@@ -1,6 +1,6 @@
 describe('getLength function' , ()=>{
     
-    const getLength = require('../modules/task_01');
+    const getLength = require('../src/modules/task_01');
 
     it('should be able to calculate correct length' , ()=>{
         expect(getLength(12345)).toEqual(5);
