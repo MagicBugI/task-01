@@ -11,9 +11,7 @@ const methods = {
 const [targetFunc, ...params] = process.argv.slice(2);
 
 if (!targetFunc) {
-  const result = getParameters(methods);
-  console.log(result);
+  getParameters(methods);
 } else {
-  const result = methods[targetFunc](params);
-  console.log(result);
+  methods[targetFunc](params);
 }

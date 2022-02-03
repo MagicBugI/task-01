@@ -6,7 +6,7 @@ const getParameters = (obj) => {
   let start = 0;
 
   while (start < 2) {
-    const guess = prompt(start === 1 ? 'Run function[enter]' : 'Enter params :');
+    const guess = prompt(start === 1 ? 'Run function press [enter] to start ' : 'Enter params :');
 
     if (guess === '') {
       start += 1;
